@@ -12,7 +12,7 @@ class DisplayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Initialize the binding object
+        // Initialize the binding objects
         binding = ActivityDisplayBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
