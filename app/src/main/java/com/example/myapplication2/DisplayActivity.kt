@@ -16,7 +16,7 @@ class DisplayActivity : AppCompatActivity() {
         binding = ActivityDisplayBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Retrieve data from Intent
+        // Retrieve data from Intents
         val fullName = intent.getStringExtra("FULL_NAME") ?: "N/A"
         val email = intent.getStringExtra("EMAIL") ?: "N/A"
         val gender = intent.getStringExtra("GENDER") ?: "Not specified"
